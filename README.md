@@ -1,5 +1,5 @@
-# boilerplate-p5-artblocks-node-setup
-Boilerplate P5.js node project setup for ArtBlocks supported by Token Art Tools
+# boilerplate-artblocks-node-setup
+Boilerplate Art Blocks node project setup compatible with Token Art Tools
 
 https://github.com/owenmoore/token-art-tools
 
