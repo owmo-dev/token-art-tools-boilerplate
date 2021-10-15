@@ -11,7 +11,7 @@ module.exports = {
     devServer: {
         host: internal_ip.v4.sync(),
         port: portfinder_sync.getPort(5500),
-        watchFiles: ["src/*.js", "src/*.css", "src/*.glsl", "src/*.frag", "src/*.vert"],
+        watchFiles: ["src/*.js", "src/*.css", "src/*.glsl", "src/*.frag", "src/*.vert", "src/*.html"],
         liveReload: true,
         open: true,
         https: true,
