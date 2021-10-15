@@ -20,4 +20,4 @@ https://github.com/owenmoore/token-art-tools
 
 ## Examples
 
-The `examples` directory contains "hello, world" scripts for libraries that are known to be supported by Token Art Tools.
+The `examples` directory contains "hello, world" scripts for libraries known to work with Token Art Tools.
