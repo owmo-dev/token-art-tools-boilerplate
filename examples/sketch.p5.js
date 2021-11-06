@@ -2,6 +2,7 @@ let D = Math.min(window.innerWidth, window.innerHeight);
 
 function setup() {
     noStroke();
+    pixelDensity(1);
     createCanvas(D, D);
 }
 

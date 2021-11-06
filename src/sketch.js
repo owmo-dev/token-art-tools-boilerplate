@@ -22,6 +22,7 @@ let R = (a = 1) => {
 let program;
 
 function setup() {
+    pixelDensity(1);
     createCanvas(D, D, WEBGL);
     program = createShader(vert, frag);
     shader(program);

@@ -12,6 +12,7 @@ var renderer = new THREE.WebGLRenderer({
 });
 
 renderer.setSize(D, D);
+renderer.setPixelRatio(1);
 renderer.setClearColor("#c8c8c8");
 document.body.appendChild(renderer.domElement);
 
