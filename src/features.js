@@ -14,5 +14,5 @@ function calculateFeatures(tokenData) {
     return features;
 }
 
-// DO NOT include below this line when uploading to ArtBlocks
+// REMOVE this when packaging for deployment
 export default calculateFeatures;

@@ -1,5 +1,5 @@
-# boilerplate-artblocks-node-setup
-Boilerplate Art Blocks node project setup compatible with Token Art Tools
+# token-art-tools-boilerplate
+Boilerplate setup for Token Art Tools
 
 https://github.com/owenmoore/token-art-tools
 
