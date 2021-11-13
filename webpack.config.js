@@ -1,6 +1,4 @@
 const path = require("path");
-const internal_ip = require("internal-ip");
-const portfinder_sync = require("portfinder-sync");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCSSExtractPlugin = require("mini-css-extract-plugin");
 
@@ -9,8 +7,6 @@ module.exports = {
     entry: path.resolve(__dirname, "./src/index.js"),
     devtool: "inline-source-map",
     devServer: {
-        host: internal_ip.v4.sync(),
-        port: portfinder_sync.getPort(5500),
         watchFiles: ["src/*.js", "src/*.css", "src/*.glsl", "src/*.frag", "src/*.vert", "src/*.html"],
         liveReload: true,
         open: true,
