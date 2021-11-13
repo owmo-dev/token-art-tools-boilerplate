@@ -11,3 +11,6 @@ function draw() {
     fill("#" + tokenData.hash.substr(2, 6));
     square(D / 2 - D / 4, D / 2 - D / 4, D / 2, D / 2, D / 64);
 }
+
+window.setup = setup;
+window.draw = draw;
