@@ -41,4 +41,9 @@ module.exports = {
             },
         ],
     },
+    output: {
+        path: path.resolve(__dirname, "./src"),
+        filename: "app.js",
+        publicPath: "/",
+    },
 };
