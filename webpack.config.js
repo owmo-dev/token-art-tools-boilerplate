@@ -7,8 +7,13 @@ module.exports = {
     entry: path.resolve(__dirname, "./src/index.js"),
     devtool: "inline-source-map",
     devServer: {
-        watchFiles: ["src/*.js", "src/*.css", "src/*.glsl", "src/*.frag", "src/*.vert", "src/*.html"],
+        host: "local-ipv4",
+        port: 8080,
         liveReload: true,
+        watchFiles: ["src/*.js", "src/*.css", "src/*.glsl", "src/*.frag", "src/*.vert", "src/*.html"],
+        static: {
+            directory: path.join(__dirname, "public"),
+        },
         open: true,
         https: true,
     },
