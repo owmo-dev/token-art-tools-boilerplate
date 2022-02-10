@@ -1,8 +1,6 @@
 var vert = document.getElementById("v-shader").textContent;
 var frag = document.getElementById("f-shader").textContent;
 
-var hash = tokenData.hash;
-
 var aspect = 1.0,
     canvas,
     gl,

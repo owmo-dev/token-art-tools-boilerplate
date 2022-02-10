@@ -1,8 +1,6 @@
 var vert = document.getElementById("v-shader").textContent;
 var frag = document.getElementById("f-shader").textContent;
 
-let hash = tokenData.hash;
-
 let D = Math.min(window.innerWidth, window.innerHeight);
 
 let program;

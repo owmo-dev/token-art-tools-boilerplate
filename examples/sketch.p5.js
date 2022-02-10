@@ -8,7 +8,7 @@ function setup() {
 
 function draw() {
     background(200);
-    fill("#" + tokenData.hash.substr(2, 6));
+    fill("#" + hash.substr(2, 6));
     square(D / 2 - D / 4, D / 2 - D / 4, D / 2, D / 2, D / 64);
 }
 

@@ -1,6 +1,4 @@
 import "./style.css";
-import calculateFeatures from "./features.js";
-features = calculateFeatures(tokenData);
 
 import v_shader from "./shaders/example.vert";
 import f_shader from "./shaders/example.frag";
@@ -16,3 +14,8 @@ frag.id = "f-shader";
 frag.textContent = f_shader;
 frag.type = "x-shader/x-fragment";
 document.body.appendChild(frag);
+
+features = {
+    hash: hash,
+    edition: number,
+};

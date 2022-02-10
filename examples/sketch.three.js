@@ -17,7 +17,7 @@ renderer.setClearColor("#c8c8c8");
 document.body.appendChild(renderer.domElement);
 
 var geometry = new THREE.BoxGeometry(2, 2, 2);
-var material = new THREE.MeshBasicMaterial({ color: "#" + tokenData.hash.substr(2, 6) });
+var material = new THREE.MeshBasicMaterial({ color: "#" + hash.substr(2, 6) });
 var cube = new THREE.Mesh(geometry, material);
 scene.add(cube);
 
