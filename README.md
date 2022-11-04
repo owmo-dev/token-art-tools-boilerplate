@@ -1,7 +1,8 @@
 # token-art-tools-boilerplate
+
 Boilerplate setup for Token Art Tools
 
-https://github.com/owenmoore/token-art-tools
+https://github.com/owenmoore-xyz/token-art-tools
 
 ## Install
 
@@ -19,6 +20,7 @@ https://github.com/owenmoore/token-art-tools
 6. Press `CTRL + C` in the terminal to shut down the server when you're done
 
 ### Imports vs Inline
+
 The `sketch.js` script is running as a **module** to allow for file imports. Having separate files makes local development a lot easier - code formatting / highlights, files for quick testing ideas, etc. - however some on-chain platforms will require that you make all code inline (one file) when deploying. To modify this project from imports to inline code, simply do the following:
 
 1. Remove all imports and place code/strings in your `sketch.js` file
