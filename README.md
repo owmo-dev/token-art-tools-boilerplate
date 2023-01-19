@@ -2,7 +2,7 @@
 
 Boilerplate setup for Token Art Tools
 
-https://github.com/owmoxyz/token-art-tools
+https://github.com/owmo-dev/token-art-tools
 
 ## Install
 
